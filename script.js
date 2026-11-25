@@ -150,7 +150,7 @@
     ['BOUNCING SIGNAL OFF 7 SATELLITES', 'OK', 'ok'],
     ['SWEEPING ROOM FOR MASSIMO DUTTI SPIES', 'CLEAR', 'ok'],
     ['AUDITING AGENCY TOWEL INVENTORY', 'COMPROMISED', 'bad'],
-    ['LOCATING AGENT JULIA777', 'FOUND', 'ok'],
+    ['LOCATING AGENT VIKA008', 'FOUND', 'ok'],
   ];
 
   async function boot() {
@@ -252,7 +252,7 @@
     padEl.classList.remove('scanning');
     padEl.classList.add('done');
     ring.style.strokeDashoffset = '0';
-    setStatus('MATCH FOUND ✓ AGENT JULIA777', 'ok');
+    setStatus('MATCH FOUND ✓ AGENT VIKA008', 'ok');
     Snd.granted();
     await sleep(750);
     gate.classList.add('is-granted');
@@ -673,7 +673,7 @@
       stamp.classList.toggle('no', !accepted);
       stamp.classList.remove('go'); void stamp.offsetWidth; stamp.classList.add('go');
       if (accepted) {
-        msg.innerHTML = 'Outstanding, Agent Julia777. Proceed to <b>the Madhouse</b>, collect the package from your handler, look casual and act natural. Do <b>not</b> mention the towels.<br><br>Confirm with your handler on the usual secure channel (yes, that chat) using the code word:<br><span class="code">PETAL STRIKE</span>';
+        msg.innerHTML = 'Outstanding, Agent VIKA008. Proceed to <b>the Madhouse</b>, collect the package from your handler, look casual and act natural. Do <b>not</b> mention the towels.<br><br>Confirm with your handler on the usual secure channel (yes, that chat) using the code word:<br><span class="code">PETAL STRIKE</span>';
         teleMission.textContent = 'ACCEPTED ✓';
         teleMission.className = 'ok';
         Snd.fanfare();
@@ -711,7 +711,7 @@
     const msg = $('#destructMsg');
     let started = false;
 
-    // The countdown only arms once Agent Julia777 has answered the final question,
+    // The countdown only arms once Agent VIKA008 has answered the final question,
     // so the page never "explodes" while she is still reading it.
     let visible = false;
     const maybeStart = () => {

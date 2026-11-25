@@ -1,6 +1,6 @@
 # Secret Brief
 
-A one-page "top secret mission brief" for Agent Julia777: Operation Petal Strike.
+A one-page "top secret mission brief" for Agent VIKA008: Operation Petal Strike.
 
 Static site, no build step: `index.html`, `style.css` and `script.js`. Fonts come from Google Fonts; everything else (map, sounds, graphics) is generated in the browser.
 
